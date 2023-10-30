@@ -438,7 +438,7 @@ h4.congratulations {
 .pack {
   /* display: inline-block; */
   width: 260px;
-  margin: 0 10px 20px;
+  margin: 0 auto 20px;
 }
 
 .pack-image {
