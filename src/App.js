@@ -123,8 +123,8 @@ function App() {
       .getWhiteCount(blockchain.account)
       .call()
       .then((receipt) => {
-        setWhiteListTotal(parseInt(receipt[0]));
-        console.log("🔥 Total Whitelist: " + receipt[0]);
+        setWhiteListTotal(parseInt(receipt));
+        console.log("🔥 Total Whitelist: " + receipt);
       });
   };
   const retriveWhitelistCount = () => {
@@ -132,8 +132,8 @@ function App() {
       .getAvailableWhiteSlots(blockchain.account)
       .call()
       .then((receipt) => {
-        setWhitelisted(parseInt(receipt[0]));
-        console.log("🔥 Available Whitelist: " + receipt[0]);
+        setWhitelisted(parseInt(receipt));
+        console.log("🔥 Available Whitelist: " + receipt);
       });
   };
   const retriveBalance = () => {
@@ -141,8 +141,8 @@ function App() {
       .balanceOf(blockchain.account)
       .call()
       .then((receipt) => {
-        setTotalMinted(parseInt(receipt[0]));
-        console.log("🔥 Total Minted: " + receipt[0]);
+        setTotalMinted(parseInt(receipt));
+        console.log("🔥 Total Minted: " + receipt);
       });
   };
 
