@@ -25,7 +25,7 @@ function App() {
 
   const [mintLive, setMintLive] = useState(false);
 
-  const commonPrice = 5000000000000000; //5000000000000000000;
+  const commonPrice = 5000000000000000000;
   const [mintPrice, setMintPrice] = useState(0);
 
   //
