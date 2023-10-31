@@ -211,6 +211,19 @@ function App() {
           <br />
           Total Minted: {totalMinted}
         </p>
+        <small>
+          🥵 A rede Polygon está instável.
+          <br />
+          Caso o número Total não atualize
+          <br />
+          após o mint, basta recarregar a página.
+          <br />
+          🇺🇸 The Polygon network is unstable.
+          <br />
+          If the Total number does not update
+          <br />
+          after mint, simply reload the page.
+        </small>
       </div>
     </div>
   );
