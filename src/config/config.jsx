@@ -4,5 +4,5 @@ export const CONFIG = {
     NAME: "Polygon",
     ID: 137,
   },
-  GAS_LIMIT: 10000000,
+  GAS_LIMIT: 1000000,
 };

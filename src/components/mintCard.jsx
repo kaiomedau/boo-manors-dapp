@@ -12,7 +12,7 @@ class MintCard extends Component {
     } else if (!minting) {
       return <button onClick={onClick}>{label}</button>;
     } else {
-      return <button disabled>Minting Pack...</button>;
+      return <button disabled>Minting Mansion...</button>;
     }
   }
 
